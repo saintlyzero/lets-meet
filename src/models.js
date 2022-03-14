@@ -1,10 +1,12 @@
 import { v4 as uuidv4 } from "uuid";
-import { DateRangePicker } from "rsuite";
 
 class Person {
   constructor(name, startDate, endDate) {
-    id = uuidv4();
+    this.id = uuidv4();
+    this.name = name;
     this.startDate = startDate;
     this.endDate = endDate;
   }
 }
+
+export default Person;

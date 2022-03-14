@@ -95,8 +95,13 @@ table {
   margin-top: 10px;
 }
 .person-name {
+  flex: 2;
 }
 .person-dates {
+  flex: 2;
+}
+.container-btn-delete-person {
+  flex: 0.7;
 }
 .btn-delete-person {
   border: none;
